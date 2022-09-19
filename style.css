@@ -1,0 +1,36 @@
+/*comment*/
+* {
+    border: 1px solid red;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.dashboard {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: #06b6d4;
+}
+
+.header-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.head-row-1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.head-row-2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.content-container {
+    
+}
