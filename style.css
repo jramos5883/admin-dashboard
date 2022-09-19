@@ -1,7 +1,8 @@
 /*comment*/
-/** {
+/* {
     border: 1px solid red;
-}*/
+}
+*/
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -20,12 +21,13 @@
 li,
 ul {
     padding: 15px;
+    list-style: none;
 }
 
 .header-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background-color: white;
+    background-color: #22d3ee;
 }
 
 .head-row-1 {
@@ -33,7 +35,7 @@ ul {
     grid-row-end: 2;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 input {
@@ -49,14 +51,14 @@ input {
     grid-row-end: 3;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .btn {
-    height: 50px;
-    width: 100px;
+    height: 25px;
+    width: 75px;
     border-radius: 25px;
-    background-color: #06b6d4;
+    background-color: #0e7490;
     margin: 20px;
     color: white;
 }
@@ -88,6 +90,11 @@ h2 {
     margin: 15px;
     padding: 15px;
     max-height: 200px;
+    border-color: gold;
+    border-left-width: 10px;
+    border-left-style: solid;
+
+
 }
 
 .grid-tile2 {
